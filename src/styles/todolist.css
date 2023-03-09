@@ -1,0 +1,18 @@
+.blockInput,
+.listItem .listItemElement {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.listItem .listItemElement {
+  justify-content: center;
+  margin: 0.8rem;
+}
+
+.listItem .listItemElement.validated {
+  background-color: #5d905f;
+  border-radius: 0.8rem;
+}
