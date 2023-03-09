@@ -8,8 +8,9 @@
 }
 
 .listItem .listItemElement {
-  justify-content: center;
-  margin: 0.8rem;
+  justify-content: end;
+  padding: 0 0.8rem;
+  margin: 0.8rem auto;
 }
 
 .listItem .listItemElement.validated {
